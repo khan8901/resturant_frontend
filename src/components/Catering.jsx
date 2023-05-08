@@ -1,28 +1,74 @@
 import React from "react";
-import styles from "../styles/Catering.module.css"; // Import the CSS module
+import styles from "../styles/Catering.module.css";
+import image from "../assets/cateringfive.png";
 
-const Catering = ( ) => {
-
-
-    const images = [ 
-
-        require("../assets/cateringthree.png"),
-        require("../assets/cateringfour.png"),
-        require("../assets/cateringfive.png"),
-
-
-
-
-    ]
+const Catering = () => {
+  const image = require("../assets/catering1.jpg");
   return (
-    <div className={styles.imageGallery}> {/* Apply CSS module class */}
-      <div className={styles.imageGalleryContainer}> {/* Apply CSS module class */}
-        {/* Map the images array and render the images */}
-        {images.map((image, index) => (
-          <div key={index} className={styles.imageContainer}> {/* Apply CSS module class */}
-            <img src={image} alt={`Image ${index + 1}`} className={styles.image} /> {/* Apply CSS module class */}
-          </div>
-        ))}
+    <div className={styles.container}>
+      <div className={styles.intro}>
+        <div className={styles.introText}>
+          We are looking for pubs and mirco pubs to introduce curry nights !
+          <br />
+          <br />
+          Give us one or two of your slow nights, and together we can bring bums
+          back on your seats. <br />
+          <br />
+          Let's give your customers something new and exciting a night to
+          remember.A exciting curry night at their favourite local. If this
+          excites you, then get in touch with one of sale representative and
+          arrage a meeting get things moving.
+          <br />
+          <br />
+          Let's start bringing your customers an Exciting new Flavour!!!
+          <br />
+          <br />
+          Taste the authentic indian home cuisine at your favourite local pub.
+        </div>
+        <div className={styles.introImage}>
+          <img src={image} alt="img" />
+        </div>
+      </div>
+      
+      <div className={styles.intro}>
+        <div className={styles.introText}>
+          We are looking for pubs and mirco pubs to introduce curry nights !
+          <br />
+          <br />
+          Give us one or two of your slow nights, and together we can bring bums
+          back on your seats. <br />
+          <br />
+          Let's give your customers something new and exciting a night to
+          remember.A exciting curry night at their favourite local. If this
+          excites you, then get in touch with one of sale representative and
+          arrage a meeting get things moving.
+          <br />
+          <br />
+          Let's start bringing your customers an Exciting new Flavour!!!
+        </div>
+        <div className={styles.introImage}>
+          <img src={image} alt="img" />
+        </div>
+      </div>
+      <div className={styles.intro}>
+        <div className={styles.introText}>
+          We are looking for pubs and mirco pubs to introduce curry nights !
+          <br />
+          <br />
+          Give us one or two of your slow nights, and together we can bring bums
+          back on your seats. <br />
+          <br />
+          Let's give your customers something new and exciting a night to
+          remember.A exciting curry night at their favourite local. If this
+          excites you, then get in touch with one of sale representative and
+          arrage a meeting get things moving.
+          <br />
+          <br />
+          Let's start bringing your customers an Exciting new Flavour!!!
+        </div>
+        <div className={styles.introImage}>
+          <img src={image} alt="img" />
+        </div>
       </div>
     </div>
   );
