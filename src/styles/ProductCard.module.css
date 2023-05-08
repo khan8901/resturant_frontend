@@ -1,0 +1,67 @@
+.container {
+  width: 22%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 40px;
+  cursor: pointer; 
+  color: bisque;
+  background-color: blanchedalmond; 
+  width: 400px;
+  border-radius: 30px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d1411e;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+}
+
+.desc {
+  text-align: center;
+  color: #777;
+}  
+
+.imgcontainer { 
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px; 
+
+}  
+
+
+
+.images { 
+  objectFit: cover;
+  objectPosition: center center;
+  width: 300px;
+  height: 300px;
+  
+
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .price,
+  .desc {
+    font-size: 24px;
+  }
+}
+

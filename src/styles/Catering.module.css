@@ -1,0 +1,26 @@
+.imageGallery {
+  padding: 20px; /* Add padding */
+}
+
+.imageGalleryContainer {
+  display: flex; /* Use flexbox for single column layout */
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageContainer {
+  margin-bottom: 0; /* Remove margin between images */
+}
+
+.image {
+  width: 100%; /* Set image width to 100% for responsiveness */
+  height: auto; /* Set height to auto for responsiveness */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .image {
+    width: 100%; /* Set image width to 100% for responsiveness */
+    height: auto; /* Set height to auto for responsiveness */
+  }
+}
