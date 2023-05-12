@@ -38,11 +38,11 @@ const Navbar = () => {
       <div className={styles.item} id={id ? styles.showMenu : ""}>
         <ul className={styles.list}>
           <Link to="/">
-            <li className={styles.listItem}>Homepage</li>
+            <li className={styles.listItem}>Home</li>
           </Link>
-          <Link href="/products" passHref>
+          {/* <Link href="/products" passHref>
             <li className={styles.listItem}>Products</li>
-          </Link>
+          </Link> */}
           <Link to="/menu">
             <li className={styles.listItem}>Menu</li>
           </Link>

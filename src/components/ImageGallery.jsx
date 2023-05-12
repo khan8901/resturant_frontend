@@ -6,15 +6,14 @@ const ImageGallery = () => {
 
 
 
-  const images = [  
-
-    require("../assets/one.jpg"),
-    require("../assets/two.jpg"),
-    require("../assets/three.jpg"),
-    require("../assets/four.jpg"),
-    require("../assets/five.jpg"),
-    require("../assets/six.jpg"),
-  ]
+  const images = [
+    require("../assets/menu/one.jpg"),
+    require("../assets/menu/two.jpg"),
+    require("../assets/menu/three.jpg"),
+    require("../assets/menu/four.jpg"),
+    require("../assets/menu/five.jpg"),
+    require("../assets/menu/six.jpg"),
+  ];
 
 
 

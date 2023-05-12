@@ -1,49 +1,41 @@
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 16px;
-  }
-  
-  .title {
-    text-align: center;
-  }
-  
-  .imagesContainer {
-    display: grid;
-    gap: 16px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
-  
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.title {
+  text-align: center;
+}
+.imagesContainer {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.image {
+  width: 100%;
+  height: auto;
+  border: 2px solid #d1421e;
+  object-fit: contain;
+}
+.imageGallery {
+  margin: 5px;
+}
+.imageGalleryContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imageContainer {
+  margin-bottom: 10px;
+}
+.image {
+  max-width: 100%;
+  height: auto;
+  width: 800px;
+}
+@media (max-width: 768px) {
   .image {
     width: 100%;
     height: auto;
-    object-fit: cover;
-  }.imageGallery {
-    padding: 20px; /* Add padding */
   }
-  
-  .imageGalleryContainer {
-    display: flex; /* Use flexbox for single column layout */
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .imageContainer {
-    margin-bottom: 20px; /* Add margin between images */
-  }
-  
-  .image {
-    max-width: 100%; /* Set image width to 100% for responsiveness */
-    height: auto; /* Set height to auto for responsiveness */
-    width: 800px; /* Set image size to 800px by 800px for non-responsive layout */
-    
-  }
-  
-  /* Media query for responsiveness */
-  @media (max-width: 768px) {
-    .image {
-      width: 100%; /* Set image width to 100% for responsiveness */
-      height: auto; /* Set height to auto for responsiveness */
-    }
-  }
-  
+}
