@@ -4,9 +4,9 @@ import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [id, setId] = useState(false)
+  const [id, setId] = useState(false);
   function showMenu() {
-    console.log(id)
+    console.log(id);
     setId(!id);
   }
   const quantity = useSelector((state) => state.cart.quantity);
@@ -40,9 +40,6 @@ const Navbar = () => {
           <Link to="/">
             <li className={styles.listItem}>Home</li>
           </Link>
-          {/* <Link href="/products" passHref>
-            <li className={styles.listItem}>Products</li>
-          </Link> */}
           <Link to="/menu">
             <li className={styles.listItem}>Menu</li>
           </Link>
