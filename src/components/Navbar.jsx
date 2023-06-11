@@ -15,10 +15,10 @@ const Navbar = () => {
     <div className={styles.container}>
       <Link href="/" passHref>
         <img
-          src={require("../assets/logo2.png")}
+          src={require("../assets/logo2.jpeg")}
           alt=""
-          width="60px"
-          height="49px"
+          width="100px"
+          height="65px"
         />
       </Link>
       <div className={styles.item} id="contactDetails">
@@ -26,8 +26,8 @@ const Navbar = () => {
           <img
             src={require("../assets/call.png")}
             alt=""
-            width="22"
-            height="22"
+            width="20"
+            height="20"
           />
         </div>
         <div className={styles.texts}>
