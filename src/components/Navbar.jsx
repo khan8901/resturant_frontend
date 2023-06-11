@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className={styles.container}>
       <Link href="/" passHref>
         <img
-          src={require("../assets/logo.png")}
+          src={require("../assets/logo2.png")}
           alt=""
           width="60px"
           height="49px"
@@ -51,19 +51,7 @@ const Navbar = () => {
           </Link>
         </ul>
       </div>
-      <Link to="/cart">
-        <div className={styles.item}>
-          <div className={styles.cart}>
-            <img
-              src={require("../assets/cart.png")}
-              alt=""
-              width="30px"
-              height="30px"
-            />
-            <div className={styles.counter}>{quantity}</div>
-          </div>
-        </div>
-      </Link>
+
       <div className={styles.menuBtn}>
         <button onClick={showMenu}>
           <img
