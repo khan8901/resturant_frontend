@@ -42,17 +42,20 @@
   margin-left: 5px;
   width: 80px;
   color: white;
+  font-weight: bold;
+
 }
 
 .text:first-child {
   font-size: 0.8rem;
-  font-weight: 300;
-  width: 80px;
+  font-weight: bold;
+  width: 80px; 
+  
 }
 
 .text:last-child {
   font-size: 0.8rem;
-  font-weight: 300;
+  font-weight: bold;
   width: 80px;
 }
 

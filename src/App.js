@@ -8,6 +8,8 @@ import Home from "./components/Home";
 import Admin from "./components/Admin";
 import Login from "./components/Login";
 import ProductDetails from "./components/ProductDetails"; 
+import Aboutus from "./components/Aboutus"; 
+import Terms from "./components/Terms";
 import {
   BrowserRouter as Router,
   Routes,
@@ -17,9 +19,6 @@ import {
   
   } from 'react-router-dom';
 import ImageGallery from "./components/ImageGallery";
-
-
-
 
 
 function App() {
@@ -33,6 +32,8 @@ function App() {
     <Route path="/"   element={<Home/>}/> 
     <Route path="/menu"   element={<ImageGallery/>}/> 
     <Route path="/catering"   element={<Catering/>}/> 
+    <Route path="/aboutus"   element={<Aboutus/>}/> 
+    <Route path="/terms"   element={<Terms/>}/> 
     <Route path="/cart"   element={<Cart/>}/> 
     <Route path="/login"   element={<Login/>}/>
     <Route path="/admin"   element={<Admin/>}/>

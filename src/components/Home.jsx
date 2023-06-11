@@ -2,7 +2,12 @@ import styles from "../styles/globals.css";
 import Navbar from "./Navbar";
 import PizzaList from "./PizzaList";
 import Footer from "./Footer";
-import ImageSlider from "./ImageSlider";
+import ImageGallery from "./ImageGallery"; 
+import ImageSlider from "./ImageSlider"; 
+
+
+
+
 
 function Home() {
     return (
@@ -14,7 +19,8 @@ function Home() {
 
            
             <ImageSlider />
-            <PizzaList />
+            <ImageGallery/>
+        
      
 
         </div>

@@ -43,7 +43,9 @@ const Navbar = () => {
           <Link to="/menu">
             <li className={styles.listItem}>Menu</li>
           </Link>
-
+          <Link to="/aboutus">
+            <li className={styles.listItem}>About Us</li>
+          </Link>
           <Link to="/catering">
             <li className={styles.listItem}>Catering</li>
           </Link>
