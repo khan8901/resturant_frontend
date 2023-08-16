@@ -12,7 +12,7 @@ const AboutUs = () => {
           </h1>
           <h2>
             About PHATINDIAN: PHATINDIAN is a renowned Indian Takeaway located
-            in the heart of Birmingham, UK. With a commitment to excellence, we
+            in the heart of Awsworth, Nottingham, UK. With a commitment to excellence, we
             bring you an authentic culinary experience that celebrates the rich
             and diverse flavors of India. Our name, PHATINDIAN, reflects our
             bold and vibrant approach to Indian cuisine, where passion meets
@@ -92,7 +92,7 @@ const AboutUs = () => {
             <br />
             <br />
             Visit PHATINDIAN today and savor the diverse and mouthwatering
-            flavors of India, right here in Birmingham, UK!
+            flavors of India, right here in Awsworth,Nottingham UK!
           </h3>
         </div>
       </div>
